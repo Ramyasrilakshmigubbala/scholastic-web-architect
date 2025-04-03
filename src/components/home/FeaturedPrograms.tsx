@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Monitor, TrendingUp, Flask, PenTool } from 'lucide-react';
+import { Monitor, TrendingUp, Beaker, PenTool } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const programs = [
@@ -20,7 +20,7 @@ const programs = [
     bgColor: 'bg-green-500'
   },
   {
-    icon: <Flask className="h-6 w-6" />,
+    icon: <Beaker className="h-6 w-6" />,
     title: 'B.Sc. in Biotechnology',
     description: 'Discover the science of living systems and their applications in medicine and agriculture.',
     link: '/programs/bsc-biotech',
