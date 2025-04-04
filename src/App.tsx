@@ -14,6 +14,8 @@ import Faculty from "./pages/Faculty";
 import Contact from "./pages/Contact";
 import Programs from "./pages/Programs";
 import News from "./pages/News";
+import Departments from "./pages/Departments";
+import AcademicCalendar from "./pages/AcademicCalendar";
 
 // Program detail pages
 import BTechAI from "./pages/programs/BTechAI";
@@ -38,6 +40,8 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/academics" element={<Academics />} />
+          <Route path="/departments" element={<Departments />} />
+          <Route path="/academic-calendar" element={<AcademicCalendar />} />
           <Route path="/admissions" element={<Admissions />} />
           <Route path="/campus-life" element={<CampusLife />} />
           <Route path="/faculty" element={<Faculty />} />
