@@ -104,7 +104,9 @@ const Header: React.FC = () => {
           >
             <Search className="h-5 w-5" />
           </button>
-          <Button className="bg-primary hover:bg-primary/90">Apply Now</Button>
+          <Button className="bg-primary hover:bg-primary/90" asChild>
+            <Link to="/admissions">Apply Now</Link>
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -155,8 +157,8 @@ const Header: React.FC = () => {
                 </React.Fragment>
               ))}
               <div className="pt-4">
-                <Button className="w-full bg-primary hover:bg-primary/90" onClick={() => setIsMenuOpen(false)}>
-                  Apply Now
+                <Button className="w-full bg-primary hover:bg-primary/90" onClick={() => setIsMenuOpen(false)} asChild>
+                  <Link to="/admissions">Apply Now</Link>
                 </Button>
               </div>
             </nav>

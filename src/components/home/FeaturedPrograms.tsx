@@ -68,10 +68,7 @@ const FeaturedPrograms: React.FC = () => {
                   key={index} 
                   className="min-w-full h-full px-2"
                 >
-                  <Link 
-                    to={program.link}
-                    className="bg-white rounded-xl overflow-hidden shadow-md flex flex-col h-full card-hover"
-                  >
+                  <div className="bg-white rounded-xl overflow-hidden shadow-md flex flex-col h-full card-hover">
                     <div className={`${program.bgColor} p-4 text-white flex items-center justify-center`}>
                       <div className="bg-white/20 p-3 rounded-full">
                         {program.icon}
@@ -80,9 +77,11 @@ const FeaturedPrograms: React.FC = () => {
                     <div className="p-6 flex-1 flex flex-col">
                       <h3 className="font-montserrat font-semibold text-xl mb-3">{program.title}</h3>
                       <p className="text-gray-600 mb-6 flex-1">{program.description}</p>
-                      <Button className="w-full">Learn More</Button>
+                      <Link to={program.link}>
+                        <Button className="w-full">Learn More</Button>
+                      </Link>
                     </div>
-                  </Link>
+                  </div>
                 </div>
               ))}
             </div>
@@ -126,9 +125,8 @@ const FeaturedPrograms: React.FC = () => {
         {/* Desktop Grid */}
         <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {programs.map((program, index) => (
-            <Link 
+            <div 
               key={index}
-              to={program.link} 
               className="bg-white rounded-xl overflow-hidden shadow-md flex flex-col card-hover h-full"
             >
               <div className={`${program.bgColor} p-4 text-white flex items-center justify-center`}>
@@ -139,9 +137,11 @@ const FeaturedPrograms: React.FC = () => {
               <div className="p-6 flex-1 flex flex-col">
                 <h3 className="font-montserrat font-semibold text-xl mb-3">{program.title}</h3>
                 <p className="text-gray-600 mb-6 flex-1">{program.description}</p>
-                <Button className="w-full">Learn More</Button>
+                <Link to={program.link}>
+                  <Button className="w-full">Learn More</Button>
+                </Link>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>
