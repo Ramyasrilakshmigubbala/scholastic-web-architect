@@ -11,7 +11,7 @@ const newsItems = [
     title: 'College Fest 2025 Announced!',
     date: 'June 15, 2024',
     excerpt: 'Mark your calendars for the biggest campus celebration of the year with music, competitions, and more.',
-    content: 'Elite College is thrilled to announce the dates for our annual College Fest 2025! From September 15-18, 2025, the campus will come alive with music, dance, competitions, exhibitions, and much more. This year's theme is "Innovation for Tomorrow," celebrating creativity and forward thinking across all disciplines. Students from all departments are encouraged to participate and showcase their talents. Special performances by renowned artists are also scheduled.',
+    content: "Elite College is thrilled to announce the dates for our annual College Fest 2025! From September 15-18, 2025, the campus will come alive with music, dance, competitions, exhibitions, and much more. This year's theme is \"Innovation for Tomorrow,\" celebrating creativity and forward thinking across all disciplines. Students from all departments are encouraged to participate and showcase their talents. Special performances by renowned artists are also scheduled.",
     imageUrl: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
     link: '/news/college-fest-2025'
   },
@@ -20,7 +20,7 @@ const newsItems = [
     title: 'Guest Lecture by Industry Leaders',
     date: 'July 8, 2024',
     excerpt: 'Join us for an insightful session with top executives from leading tech companies sharing their experiences.',
-    content: 'Elite College is pleased to host a distinguished panel of industry leaders for a special guest lecture series on July 15, 2024. The event will feature CEOs and senior executives from companies like Google, Microsoft, and Amazon who will share insights about emerging technologies, industry trends, and career opportunities. This is a valuable opportunity for students to learn from and network with accomplished professionals at the forefront of technological innovation.',
+    content: "Elite College is pleased to host a distinguished panel of industry leaders for a special guest lecture series on July 15, 2024. The event will feature CEOs and senior executives from companies like Google, Microsoft, and Amazon who will share insights about emerging technologies, industry trends, and career opportunities. This is a valuable opportunity for students to learn from and network with accomplished professionals at the forefront of technological innovation.",
     imageUrl: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
     link: '/news/guest-lecture-series'
   },
@@ -29,7 +29,7 @@ const newsItems = [
     title: 'College Ranked Among Top 10 Universities',
     date: 'May 30, 2024',
     excerpt: 'We are proud to announce our placement in the top 10 universities nationwide for academic excellence.',
-    content: 'Elite College has achieved a remarkable milestone by being ranked among the top 10 universities nationwide in the latest educational rankings. This recognition reflects our commitment to academic excellence, innovative teaching methodologies, and world-class research facilities. The ranking particularly highlighted our strong industry partnerships, high employment rates for graduates, and contributions to cutting-edge research. This achievement is a testament to the hard work of our faculty, staff, and students.',
+    content: "Elite College has achieved a remarkable milestone by being ranked among the top 10 universities nationwide in the latest educational rankings. This recognition reflects our commitment to academic excellence, innovative teaching methodologies, and world-class research facilities. The ranking particularly highlighted our strong industry partnerships, high employment rates for graduates, and contributions to cutting-edge research. This achievement is a testament to the hard work of our faculty, staff, and students.",
     imageUrl: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
     link: '/news/top-10-ranking'
   }
