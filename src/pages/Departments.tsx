@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Link } from 'react-router-dom';
-import { BookOpen, Users, ChemicalElement, Language, Calculator, Microscope, PenTool, HeartHandshake } from 'lucide-react';
+import { BookOpen, Users, Flask, GraduationCap, Calculator, Microscope, PenTool, HeartHandshake } from 'lucide-react';
 
 const departments = [
   {
@@ -29,14 +29,14 @@ const departments = [
   },
   {
     title: "Natural Sciences",
-    icon: <ChemicalElement className="h-10 w-10 text-primary" />,
+    icon: <Flask className="h-10 w-10 text-primary" />,
     description: "Investigate the natural world through experimentation, observation, and theoretical analysis.",
     faculty: 25,
     programs: 7
   },
   {
     title: "Humanities",
-    icon: <Language className="h-10 w-10 text-primary" />,
+    icon: <GraduationCap className="h-10 w-10 text-primary" />,
     description: "Explore the human experience through literature, philosophy, history, and cultural studies.",
     faculty: 30,
     programs: 9
